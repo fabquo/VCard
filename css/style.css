@@ -85,14 +85,6 @@ a:link {
     /*box-shadow: 5px 5px 10px black;*/
 }
 
-.facebook .image img{
-    width: 100%;
-    position: relative;
-    filter: grayscale();
-    opacity: 0.5;
-    /*box-shadow: 5px 5px 10px black;*/
-}
-
 .github .image img{
     width: 100%;
     position: relative;
@@ -108,13 +100,6 @@ a:link {
     /*box-shadow: 5px 5px 10px black;*/
 }
 
-.facebook{
-    grid-row: 3;
-    grid-column: 6;
-    color: gray;
-    border-radius: 25px;
-    padding-right: 25px;
-}
 .github{
     grid-row: 3;
     grid-column: 7;
