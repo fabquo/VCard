@@ -1,20 +1,19 @@
-body{
-    background-color: gray;
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 2%;
 }
 
 a:link {
-    color:gray;
-    text-decoration:none;
+    color: gray;
+    text-decoration: none;
 }
 
-.container{
+.container {
     display: block;
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 50%;
     border-radius: 25px;
     box-shadow: 5px 5px 10px black;
@@ -22,43 +21,36 @@ a:link {
     padding: 25px;
 }
 
-.wrapper{
+.wrapper {
     position: relative;
     display: grid;
     width: 100%;
-    /*background-color: rgb(241, 241, 241);*/
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 15px;
 }
 
-.maintitle{
-    /*background-color: rgb(207, 207, 207);
-    background-color: rgba(255, 166, 0, 0.350);
-    border: solid 2px rgba(255, 166, 0, 0.250);*/
+.maintitle {
     grid-row: 1;
     grid-column: 1/9;
     color: rgb(207, 207, 207);
     text-align: left;
-    /*border-bottom: solid 1px;*/
-    /*border-image: linear-gradient(to right, rgb(241, 241, 241) 0%, gray 100%);
-    border-image-slice: 1;*/
     text-shadow: 2px 2px 5px black;
     padding-bottom: 25px;
 }
 
-.perso{
+.perso {
     grid-row: 1;
-    grid-column: 7/9;
-    color:gray;
+    grid-column: 2/9;
+    color: gray;
     text-align: right;
 }
 
-.perso li{
-    list-style:none;
+.perso li {
+    list-style: none;
 }
 
-.about{
+.about {
     grid-row: 2;
     grid-column: 2/9;
     background-color: rgba(175, 175, 175, 0.35);
@@ -73,7 +65,7 @@ a:link {
     text-shadow: 2px 2px 5px rgb(150, 150, 150);
 }
 
-.pp{
+.pp {
     grid-row: 2/4;
     grid-column: 1;
 }
@@ -82,25 +74,24 @@ a:link {
     width: 100%;
     border-radius: 25px;
     border: solid 2px rgba(175, 175, 175, 0.500);
-    /*box-shadow: 5px 5px 10px black;*/
 }
 
-.github .image img{
+.github .image img {
     width: 100%;
     position: relative;
+    -webkit-filter: grayscale();
     filter: grayscale();
     opacity: 0.5;
-    /*box-shadow: 5px 5px 10px black;*/
 }
 
-.linkedin .image img{
+.linkedin .image img {
     width: 100%;
     position: relative;
+    -webkit-filter: grayscale();
     filter: grayscale();
-    /*box-shadow: 5px 5px 10px black;*/
 }
 
-.github{
+.github {
     grid-row: 3;
     grid-column: 7;
     color: gray;
@@ -108,11 +99,10 @@ a:link {
     padding-right: 25px;
 }
 
-.linkedin{
+.linkedin {
     grid-row: 3;
     grid-column: 8;
     color: gray;
     border-radius: 25px;
     padding-right: 25px;
 }
-
